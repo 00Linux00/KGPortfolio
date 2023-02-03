@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/dist/index.css">
+    <title>My Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="page--title"><strong>KienGiang Portfolio</strong></div>
+            <section id="navbar" class="nav">
+                <!-- <div class="nav--hamburger-mobile">
+                    <i class="fa-solid fa-xmark-large"></i>
+                    <i class="fa-solid fa-bars nav--hamburger-icon"></i>   
+                </div> -->
+
+                <div class="nav--links">
+                    <a href="#welcome-section">About</a>
+                    <a href="#sec-knowledge">Knowledge</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#sec-contact">Contract</a>
+                </div>
+            </section>
+        </header>
+
+        <section id="welcome-section" class="sec-position">
+            <h1 class="sec-title">About</h1>
+            <div class="avatar-bg"></div>
+            <div class="intro">
+                <div id="about-left">
+                    <h3 class="name">Tên: TRƯƠNG KIÊN GIANG</h3>
+                    <p class="studyPlace">Trường: Cao Đẳng Kỹ Thuật Cao Thắng.</p>
+                    <p class="major">Ngành: Công Nghệ Thông Tin.<p/>
+                    <p class="specialized">Chuyên: Quản Trị Mạng Máy Tính.</p>
+                    <p class="target">Mục Tiêu: Tự tin làm việc tại vị trí front-end developer sau 2 năm
+                            "thực chiến" tại môi trường doanh nghiệp.
+                    </p>                
+                </div>
+                        
+                <img src="./src/img/profile-pic.jpg" alt="" class="profile-pic">
+    
+                <div id="about-right">
+                    <p class="hobbies">Sở thích: Coding, Game</p>
+                    <p class="personality">Tính cách: Hướng nội thích đêm, ít nói<p/>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec-knowledge" class="sec-position">
+            <div class="sec-knowledge--container">
+                <h1 class="sec-title">Knowledge</h1>
+                <label for="html" class = "html">HTML 70%<canvas style="--up:70%; --color:linear-gradient(90deg, #DF4C26, #EE5D33);"></label>
+                <label for="css" class = "css">CSS 50%<canvas style="--up:50%; --color:linear-gradient(90deg, #129DD7, #29A4D8);"></label>
+                <label for="js" class = "js">JavaScript 40%<canvas style="--up:40%; --color:linear-gradient(90deg, #CFB433, #F4D540);"></label>
+                <label for="jquery" class = "jquery">JQuery 20%<canvas style="--up:20%; --color:#1066A9;"></label>
+                <label for="cpp" class = "cpp">CPP 45%<canvas style="--up:45%; --color:linear-gradient(90deg, #6295CB, #00427E);"></label>
+                <label for="csh" class = "csh">CS 20%<canvas style="--up:20%; --color:linear-gradient(90deg, #964D91, #671473);"></label>
+            </div>
+        </section>
+
+        <section id="projects" class="sec-position">
+            <h1 class="sec-title sec-position">Projects</h1>
+            <div class="project-grid">
+                <div class="project project-grid--1" style="grid-column: 1;">
+                    <figure>
+                        <img src="./src/img/dogHome.png" alt="" class="project--img">
+                        <figcation class="figcation">
+                            <h4 class="project-desc">HTML, CSS Thuần. Landing page về cửa hàng thú cưng</h4>
+                            <a href="#" class="btn">
+                                <span>Source Code</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </figcation>
+                    </figure>
+                    <h5 class="project-title">Dog Home</h5>
+                </div>
+
+                <div class="project project-grid--2" style="grid-column: 3;">
+                    <figure>
+                        <img src="./src/img/cloneLOLWebsite.png" alt="" class="project--img">
+                        <figcation class="figcation">
+                            <h4 class="project-desc">HTML, CSS, JS Thuần. Clone League Of Legends Website</h4>
+                            <a href="#" class="btn">
+                                <span>Source Code</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </figcation>
+                    </figure>
+                    <h5 class="project-title">Semester 4 Project</h5>
+                </div>
+
+                <div class="project project-grid--3" style="grid-column: 5;">
+                    <figure>
+                        <img src="./src/img/SurveyForm.png" alt="" class="project--img">
+                        <figcation class="figcation">
+                            <h4 class="project-desc">HTML, CSS Thuần. Form đăng ký phỏng vấn cho vị trí IT</h4>
+                            <a href="#" class="btn">
+                                <span>Source Code</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </figcation>
+                    </figure>
+                    <h5 class="project-title">Survey Form</h5>
+                </div>
+
+                <div class="project project-grid--4" style="grid-column: 2;">
+                    <figure>
+                        <img src="./src/img/landingPage.png" alt="" class="project--img">
+                        <figcation class="figcation">
+                            <h4 class="project-desc">HTML, CSS Thuần. Landing page về dịch vụ chuyển phát kèn</h4>
+                            <a href="#" class="btn">
+                                <span>Source Code</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </figcation>
+                    </figure>
+                    <h5 class="project-title">Landing Page</h5>
+                </div>
+
+                <div class="project project-grid--5" style="grid-column: 4;">
+                    <figure>
+                        <img src="./src/img/winform.png" alt="" class="project--img">
+                        <figcation class="figcation">
+                            <h4 class="project-desc">Phần mềm quản lý bán hàng, sản phẩm của cửa hàng giày, dép</h4>
+                            <a href="#" class="btn">
+                                <span>Source Code</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </figcation>
+                    </figure>
+                    <h5 class="project-title">Semester 5 Project</h5>
+                </div>
+
+            </div>
+        </section>
+
+        <footer id="sec-contact" class="sec-position">
+            <h1 class="sec-title">Contact</h1>
+            <div class="slogan">
+                <h4> < I do love Bug As Hard As I Hate IT / > </h4>
+            </div>
+
+            <div class="sec-contact--infor">
+                <div id="profile-link" class="telegram">
+                    <a href="https://t.me/GiangTruog" target="_blank">
+                        <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+                    </a> 
+                </div>
+
+                <div id="profile-link" class="email">
+                    <a href="mailto:truongkgiang012@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div id="profile-link" class="facebook">
+                    <a href="https://www.facebook.com/truongKienGiang/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a> 
+                </div>
+            </div>           
+        </footer>
+    </div>
+
+    <script src="./dist/script.js"></script>
+</body>
+</html>

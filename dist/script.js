@@ -1,0 +1,2 @@
+"use strict";window.onscroll=function(){myFunction()};var navbar=document.getElementById("navbar"),scroll=navbar.offsetTop;function myFunction(){window.pageYOffset>=scroll?navbar.classList.add("scroll"):navbar.classList.remove("scroll")}
+//# sourceMappingURL=script.js.map
